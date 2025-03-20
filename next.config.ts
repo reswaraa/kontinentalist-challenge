@@ -1,7 +1,13 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: [
+      'cryptodire.kontinentalist.com',
+      'd14tq5tm8as3qe.cloudfront.net',
+      'cdn-media.kontinentalist.com',
+    ],
+  },
 };
 
 export default nextConfig;
