@@ -78,7 +78,7 @@ export default function PostsPage() {
 
           {posts.length === 0 ? (
             <div className="p-6 rounded-lg shadow text-center">
-              <p className="text-gray-500">
+              <p className="text-gray-300">
                 No posts yet. Create your first post!
               </p>
             </div>
