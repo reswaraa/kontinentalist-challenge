@@ -57,13 +57,13 @@ kontinentalist-challenge/
 │   ├── components/
 │   │   ├── PostForm.tsx
 │   │   ├── PostItem.tsx
+│   │   ├── Navbar.tsx
 │   │   └── StoryCard.tsx
 │   ├── hooks/
 │   │   └── useLocalStorage.ts
-│   ├── services/
-│   │   └── api.ts
-│   └── types/
-│       └── index.ts
+│   └── lib/
+│       ├── api.ts
+│       └── types.ts
 ├── .eslintrc.json
 ├── next-env.d.ts
 ├── next.config.js
@@ -72,21 +72,6 @@ kontinentalist-challenge/
 ├── tailwind.config.js
 └── tsconfig.json
 ```
-
-## API Endpoints
-
-### Stories API (External)
-
-- `GET https://cryptodire.kontinentalist.com/api/v1/stories` - Get all stories
-- `GET https://cryptodire.kontinentalist.com/api/v1/stories?page={pageNumber}` - Get paginated stories
-
-### Posts API (Local Implementation)
-
-- `GET /api/posts` - Get all posts
-- `GET /api/posts/{id}` - Get a single post
-- `POST /api/posts` - Create a new post
-- `PATCH /api/posts/{id}` - Update a post
-- `DELETE /api/posts/{id}` - Delete a post
 
 ## Notes
 
