@@ -27,15 +27,5 @@ export type Post = {
   id: string;
   title: string;
   content: string;
-  createdAt?: Date;
-  updatedAt?: Date;
-};
-
-export type PostsResponse = {
-  data: Post[];
-  meta?: {
-    total: number;
-    page: number;
-    limit: number;
-  };
+  createdAt: string;
 };
