@@ -33,7 +33,7 @@ export default function Home() {
           </p>
           <Link
             className="inline-block px-4 py-2 rounded-md text-white border border-gray-700 hover:bg-gray-700"
-            href="/stories"
+            href="/posts"
           >
             Manage Posts
           </Link>
